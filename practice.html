@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="practice.css" />
+  </head>
+  <body>
+
+    <div class="box" id="js-box-hover">
+      <div class="box__inner">
+        hover
+      </div>
+    </div>
+
+    <div class="box2" id="js-box-over">
+      <div class="box__inner">
+        mouseover
+      </div>
+    </div>
+
+    <div class="sampleBox">
+      このDiv全体をクリックするとリンク先へジャンプします。スマートフォン用サイトにも最適！！
+      このDiv全体をクリックするとリンク先へジャンプします。スマートフォン用サイトにも最適！！
+      このDiv全体をクリックするとリンク先へジャンプします。スマートフォン用サイトにも最適！！
+      <a href="https://www.youtube.com/">Webクリエイターボックスへ</a>
+    </div>
+
+    <div class="imgBox">
+      <img class="imgBox" height="226" width="300" src="http://webcreatorbox.com/sample/images/beach.jpg">
+    </div>
+    <div class="imgBox">
+      <img class="imgBox" height="226" width="300" src="http://webcreatorbox.com/sample/images/sunset.jpg">
+    </div>
+
+    <div class="deleteBox">
+      <p>エラーメッセージ表示時に便利かもしれません。</p>
+      <p class="delete">[ 閉じる ]</p>
+    </div>
+
+    <form action="#">
+      <label for="name">お名前</label>
+      <input type="text" id="name" />&nbsp;
+      <label for="spanail">メールアドレス</label>
+      <input type="text" id="spanail" />
+    </form>
+    
+    <input type="text" class="focus" value="キーワードを入力">
+    
+    <p>10文字まで入力できます。</p>
+    <textarea cols="30" rows="10"></textarea>
+    <p id="countUp">0</p>
+
+    <script src="jquery.min.js"></script>
+    <script src="practice.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.box,
+.box2 {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  background: orange;
+  color: #000;
+  display: flex;
+}
+
+.box {
+  margin-bottom: 10px;
+}
+
+.box__inner {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  background: white;
+  margin: auto;
+}
+
+.imgBox {
+ background:url(http://webcreatorbox.com/sample/images/loading.gif) 50% 50% no-repeat;
+  width: 300px;
+  height: 226px;
+  display: inline-block;
+}
+
+.labelfocus {
+  color:#f39;
+}
+
+.focus {
+  color: #969696;
+  font-size: 16px;
+  padding: 5px;
+  width: 200px;
+}
